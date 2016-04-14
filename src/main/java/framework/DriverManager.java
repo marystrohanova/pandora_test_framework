@@ -5,6 +5,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 
+import framework.configuration.PropertiesLoader;
+
 public class DriverManager {
 	public static RemoteWebDriver getDriver(){
 		RemoteWebDriver driver = null;
